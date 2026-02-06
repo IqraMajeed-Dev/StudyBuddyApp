@@ -1,0 +1,128 @@
+/* ===== GLOBAL STYLES FOR CONTACT PAGE ===== */
+.contact-page {
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: #ecf0f1;
+  border-radius: 10px;
+}
+
+.hero h1 {
+  color: navy;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  color: #333;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Contact Section */
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+/* Contact Info Card */
+.contact-info {
+  flex: 1 1 45%;
+  background: #f8f8f8;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.contact-info h2 {
+  color: navy;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+/* Contact Form Card */
+.contact-form {
+  flex: 1 1 50%;
+  background: #f8f8f8;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.contact-form h2 {
+  color: navy;
+  margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.contact-form textarea {
+  resize: none;
+}
+
+.contact-form button {
+  background: navy;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: #1b2f5c;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .contact-section {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .contact-info,
+  .contact-form {
+    flex: 1 1 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .contact-form button {
+    width: 100%;
+  }
+}

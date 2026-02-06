@@ -1,0 +1,44 @@
+.tutors-page {
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.tutor-intro {
+  margin: 15px auto 40px;
+  max-width: 600px;
+  color: #333;
+}
+
+.tutor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.tutor-card {
+  background: #f8f8f8;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.tutor-card h3 {
+  color: navy;
+  margin-bottom: 10px;
+}
+
+.tutor-card p {
+  margin: 6px 0;
+  font-size: 0.95rem;
+}
+
+.tutor-note {
+  margin-top: 50px;
+  background: #ecf0f1;
+  padding: 20px;
+  border-radius: 12px;
+  font-weight: 500;
+}

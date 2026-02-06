@@ -1,0 +1,132 @@
+.home-page {
+  padding: 20px;
+}
+
+/* Hero */
+.home-hero {
+  text-align: center;
+  padding: 70px 20px;
+  background: #ecf0f1;
+  border-radius: 15px;
+}
+
+.home-hero h1 {
+  color: navy;
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+}
+
+.home-hero p {
+  max-width: 700px;
+  margin: auto;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.hero-buttons {
+  margin-top: 25px;
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 12px 22px;
+  margin: 5px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.btn-primary {
+  background: navy;
+  color: white;
+}
+
+.btn-secondary {
+  background: #1b2f5c;
+  color: white;
+}
+
+/* How it works */
+.how-it-works {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.steps {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.step-card {
+  flex: 1 1 250px;
+  background: #f8f8f8;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+/* Why Us */
+.why-us {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+  margin-top: 25px;
+}
+
+/* Subjects */
+.subjects {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.subject-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.subject-list span {
+  background: navy;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+}
+
+/* CTA */
+.home-cta {
+  margin-top: 70px;
+  text-align: center;
+  background: #2c3e50;
+  color: white;
+  padding: 50px 20px;
+  border-radius: 15px;
+}
+
+.home-cta h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.home-cta p {
+  font-size: 1.1rem;
+  margin-bottom: 25px; /* spacing between text & button */
+}
+
+.cta-btn {
+  display: inline-block;
+  padding: 14px 30px;
+  background: navy;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+}
